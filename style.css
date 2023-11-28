@@ -1,0 +1,68 @@
+/* Whole Head Page */
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    
+    min-height: 95vh;
+
+    background-image: url(img/bread1.jpg);
+  }
+.title{
+    text-align: center;
+    font-family: playball;
+    color: wheat;
+    font-size: 4rem;
+}
+.front{
+    font-size: 27px;
+    font-family: Libre Baskerville;
+    text-align: center;
+    color: white;
+    background-color: red;
+    padding: 20px;
+    height: 200px;
+    margin: auto;
+    border: grey solid;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    flex: 100px 1 0;
+    
+}
+.front > p {
+    font-size: 2rem;
+}
+.navbar ul{
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    
+}
+.navbar a{
+    color:wheat;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    
+}
+.navbar a:hover{
+    background-color: wheat;
+    color: white;
+    transition-duration: 0.7s;
+}
+.navbar li{
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    .front {
+        font-size: 0; 
+        padding: 0;
+        overflow: hidden;
+    }
+}
+/* Whole Head Page */
